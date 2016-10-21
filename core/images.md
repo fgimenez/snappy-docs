@@ -61,7 +61,7 @@ You have to replace < your account id > with your actual Store account id. You w
 
 ### Image signing
 
-Now you have to sign the model assertion with your keys
+Now you have to sign the model assertion with your keys, assuming that the key name is `default`:
 
     $ cat pi3-model.json | snap sign -k default &> pi3.model
 
